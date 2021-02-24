@@ -1,0 +1,123 @@
+@media (max-width: 660px) {
+	.header .header-top {
+    	padding: 15px 0 8px 0;
+	}
+	#navbar form.mr-3.w-100{
+		display: none;
+	}
+	.header .header-bottom .logo {
+   		width: 340px;
+	}
+	.col-3 {
+	    -ms-flex: 0 0 25%;
+	    flex: 0 0 25%;
+	    max-width: 100%;
+	}
+	.col-9 {
+	    -ms-flex: 0 0 25%;
+	    flex: 0 0 25%;
+	    max-width: 100%;
+	}
+	.col-sm-6 {
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
+	.header .header-top .right-area ul li .link svg {
+   	 	display: inline-block;
+	}
+	.search{
+		right: 25px;
+	}
+	.search .fa {
+	    font-size: 20px !important;
+	    padding: 0px;
+	    color: white;
+	}
+	.header .col-lg-9.d-flex.align-items-center{
+		display: none !important;
+	}
+	.header .header-bottom .logo {
+	    max-width: 55%;
+	    float: left;
+	}
+	.header-bottom .col-lg-3{
+		justify-content: left !important;
+	}
+	.header .header-top .left-area ul li:last-child::after{
+		display: block !important;
+	}
+	.header .header-top .right-area ul li::after{
+		display: none !important;
+	}
+	.link span{
+		display: none !important;
+	}
+	.right-area ul{
+		text-align: right;
+	}
+	.header-top .col-xl-6:first-child{
+		flex: 0 0 60%;
+		max-width: 60%;
+	}
+	.header-top .col-xl-6:last-child{
+		flex: 0 0 40%;
+		max-width: 40%;
+	}
+	.header .header-top .right-area ul li:first-child{
+		padding-right: 10px !important;
+	}
+	.bottom-navbar{
+		position: fixed;
+		display: block !important;
+		bottom: 0;
+		width: 100%;
+		padding: 5px 10px;
+		z-index: 999999;
+		background: #fff;
+		border-top: 2px solid red;
+
+	}
+
+	.bottom-navbar ul li{
+		display: inline-block;
+		padding: 10px 3px;
+	}
+	.bottom-navbar li span, .bottom-navbar li i{
+		display: block;
+		text-align: center;
+		color: #222;
+	}
+	.bottom-navbar li span{
+		font-size: 10px;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+	.bottom-navbar li i{
+		color: red;
+	}
+	.bottom-navbar li span{
+		color: #343a40;
+		font-weight: 600;
+		padding-top: 3px;
+		font-family: arial;
+	}
+	.banner .banner-content h1{
+		font-size: 40px;
+	}
+	.banner .banner-content {
+    	padding: 80px 0;
+	}
+	.banner-button li:first-child{
+		margin-bottom: 15px;
+	}
+	.copyright-footer {
+    	margin-bottom: 5px;
+	}
+}
+@media(min-width: 1200px){
+	.bottom-navbar{
+		display: none;
+	}
+}
